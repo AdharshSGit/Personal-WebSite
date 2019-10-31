@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#BG2
+{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,.3)),url(../resource/wayanad.jpeg);
+    height: 41.05em;
+    background-position-x: -32em;
+    background-position-y: -8em;
+    
+}
+h2
+{
+    text-align: center;
+    margin-left: 15%;
+    font-size: 40px;
+    clear: both;
+    line-height: 5em;
+}
+.details
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    border-collapse: collapse;
+    margin-left: 40%;
+    margin-top: -2em;
+    text-align: center;
+    clear: both;
+    font-size: 25px;
+    width: 40%;
+}
+.details td,th
+{
+    border: 1px solid black;
+}
+@media screen and (max-width: 960px)
+{
+    h2 
+    {
+        font-size: 20px;
+        clear: both;
+        
+    }
+    .details{
+        font-size: 15px;
+        clear: both;
+        
+    }
+}
