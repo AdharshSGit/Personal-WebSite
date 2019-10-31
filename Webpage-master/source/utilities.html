@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <header>
+        <meta charset="UTF-8">
+        <meta name="description" content="Portfolio">
+            <meta name="keywords" content="HTML,CSS">
+            <meta name="author" content="Adharsh">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../stylesheet/Home.css" type="text/css"/>
+        <link rel="stylesheet" href="../stylesheet/utilities.css" type="text/css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <title>
+            Personal Website
+        </title>
+    </header>
+    <body>
+        <section>
+                    <div class="logo">
+                       <a href="logo.html"><img src="../resource/logo1.png" alt="logo"/> </a>
+                    </div>
+                        <ul class="navigate">
+                            <li><a href="Index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="academics.html">Academics</a></li>
+                            <li><a href="Achievements.html">Achievements</a></li>
+                            <li class="active"><a href="utilities.html">Utilities</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                        <h1 class="title">GPA Calculator</h1>
+                        <div class='outer-box'>
+                          <div class='inner-box'>
+                            <p id="class-name">Course</p>
+                            <form class='block'>
+                              <input type="text" class="course" placeholder="Course Name">
+                              <label>Units</label>
+                              <input type="text" class="units">
+                              <label>Grade</label>
+                              <select class="grade-select">
+                                <option value="">Select</option>
+                                <option value="10.0">A+</option>
+                                <option value="9.0">A</option>
+                                <option value="8.5">A-</option>
+                                <option value="8">B+</option>
+                                <option value="7.5">B</option>
+                                <option value="7.0">B-</option>
+                                <option value="6.5">C+</option>
+                                <option value="6.0">C</option>
+                                <option value="5.5">C-</option>
+                                <option value="5.0">D</option>
+                                <option value="">F</option>
+                              </select>
+                            </form>
+                          </div>
+                      
+                          <div class="btn btn-default">(+) Add Course</div>
+                          <div class="result">
+                            <h3 id="gpa">GPA</h3>
+                          </div>
+                        </div>
+                        <div class="spacer"></div>
+                        <div class="container">
+                          <div class="row">
+                             <div class="col-sm-6 col-sm-offset-3 well">
+                                <h4 class="text-center">OVERALL SCORE</h4> 
+                                <form class="form-horizontal">
+                                   <div class="form-group">
+                                      <label class="control-label col-sm-2" for="value1">Enter the Board Score</label>
+                                      <div class="col-sm-10">
+                                         <input type="number" name="value1" id="value1" class="form-control" min="0" placeholder="Enter BoardScore" required />
+                                      </div>
+                                   </div>
+                                   <div class="form-group">
+                                      <label class="control-label col-sm-2" for="value2">Enter the JEE Main Score</label>
+                                      <div class="col-sm-10">
+                                         <input type="number" name="value2" id="value2" class="form-control" min="0" placeholder="Enter JEE Main Score" required />
+                                      </div>
+                                   </div>
+                                   <div class="form-group">
+                                      <label class="control-label col-sm-2" for="sum">Overall Score</label>
+                                      <div class="col-sm-10">
+                                         <input type="number" name="sum" id="sum" class="form-control" readonly />
+                                      </div>
+                                   </div>
+                                </form>
+                             </div>
+                          </div>
+                       </div>
+        </section>
+        <script src="../source/CGPA.js"></script>
+    </body>
+</html>
