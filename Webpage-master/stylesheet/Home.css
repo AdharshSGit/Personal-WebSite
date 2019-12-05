@@ -32,11 +32,11 @@
 }
 .navigate li.active a
 {
-    border: 1.5px solid sienna;
+    color: sienna;
 }
 .navigate li a:hover
 {
-    border: 1.5px solid sienna;
+    color: sienna;
 }
 
 .logo img
@@ -99,11 +99,11 @@
     }
     .navigate li.active a
     {
-        border: 1.5px solid sienna;
+        color: sienna;
     }
     .navigate li a:hover
     {
-        border: 1.5px solid sienna;
+        color: sienna;
     } 
     #obj {
         clear: both;
