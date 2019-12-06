@@ -4,7 +4,7 @@
 }
 #BG
 {
-    background-image:url(../resource/bike.jpg);
+    background-image:url(../resource/Bike.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -68,14 +68,58 @@
     font-size: 20px;
     line-height: 20px;
     font-weight: bolder;
-    
-    
     box-shadow: 0 0 20px 0 rgba(0, 0, 10, 12), 0 5px 5px 0 rgba(157, 50, 10, 5);
-    
-    
     padding:10px;
 }
 
+.hero
+{
+    position: absolute;
+    height: 10%;
+    width: 50%;
+    top: 20%;
+    margin-left: 50%;
+    margin-right: 0px;
+
+}
+.name
+{
+    color:sienna;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 275px;
+}
+.button
+{
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.btn{
+    border: 3px solid sienna;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-right: 5px;
+    font-weight: bold;
+
+}
+.button1
+{
+    background-color: sienna;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.button2
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.button2:hover
+{
+    background-color: sienna;
+    transition: all 0.2s ease-in;
+}
 @media screen and (max-width: 1010px)
 {
     .navigate
