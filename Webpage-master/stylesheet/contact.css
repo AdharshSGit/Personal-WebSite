@@ -60,7 +60,7 @@ body
     cursor: pointer;
     width: 50%;
 }
-@media screen and (max-width: 1010px)
+@media screen and (max-width: 1045px)
 {
 .contact-form
 {
