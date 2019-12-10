@@ -56,7 +56,7 @@
     width: 50%;
     top: 20%;
     margin-left: 50%;
-    margin-right: 0px;
+    
 
 }
 .name
@@ -88,7 +88,7 @@
 }
 
 
-@media screen and (max-width: 1010px)
+@media screen and (max-width: 1045px)
 {
     .navigate
     {
@@ -117,7 +117,14 @@
     {
         color: sienna;
     } 
-
+    .hero{
+        margin-left: 45%;
+        width: 55%;
+        margin-top: 5%;
+    }
+    .name{
+        font: 30px;
+    }
 }
 @media screen and (max-width: 680px)
 {
