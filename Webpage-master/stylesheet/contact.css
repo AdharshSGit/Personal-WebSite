@@ -51,7 +51,7 @@ body
     text-align: justify;
     margin-top: 5PX;
 }
-.btn
+.btns
 {
     display:inline-block;
     background: rgb(0, 153, 255);
@@ -103,7 +103,7 @@ body
     text-align: justify;
     margin-top: 5PX;
 }
-.btn
+.btns
 {
     display:inline-block;
     background: rgb(0, 153, 255);
